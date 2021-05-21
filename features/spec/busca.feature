@@ -16,3 +16,5 @@ Funcionalidade: Buscas no Fake Ecommerce
   # Completar o cenário abaixo
   @busca_sem_resultados
   Cenário: Busca sem resultados
+    Quando busco pelo produto 'roupa teste'
+    Então deve ser apresentado o texto 'No results were found for your search "roupa teste"'
